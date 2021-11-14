@@ -13,7 +13,7 @@ Layout your directory in the following way:
     Line 1:Name
     Line 2:Description
     Line 3:Current Version number
-    Line 4:Name of binary file with subcommand --update (must match the Name given in line 1 and the binary file must contain a --update subcommand.
+    Line 4:Dependencies (comma-separated)
   
   Once you are all done, install peanut and enter in your terminal:
   peanut --upload https://github.com/github-username/repo-name/peanut
