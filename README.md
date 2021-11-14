@@ -19,7 +19,16 @@ peanut list (List all packages installed)
 
 peanut uninstall
 
+peanut info (shows help)
+```
 
+
+Subcommands:
+```
+peanut install --build package-name (Builds dependencies from source instead of using another package manager, support limited at the moment but will grow as time goes on)
+peanut list -d (List packages that were downloaded upon installation of peanut)
+peanut info -n (Runs neofetch if neofetch is installed)
+```
 
 
 
