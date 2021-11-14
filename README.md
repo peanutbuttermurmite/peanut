@@ -1,14 +1,25 @@
 # peanut
 A new package manager.Coming soon to linux and part of Peanut OS.
 
-Install packages with peanut --install package-name
+All commands require root (sudo is recommended)
 
-Install .peanut files with --install package-name.peanut
+Commands:
+```
+peanut install package-name (Install packages from my repository or install a .peanut file)
 
-Uninstall packages with peanut --uninstall package-name
+peanut uninstall package-name (Uninstall all packages)
 
-Update peanut with peanut --update
+peanut update-packages (Update a package)
 
-Update packages with peanut --update-packages
+peanut update-peanut (Update peanut)
+
+peanut update (Update both peanut and all packages)
+
+peanut list (List all packages installed)
+
+peanut uninstall
+
+
+
 
 
